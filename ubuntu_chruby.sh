@@ -26,7 +26,7 @@ sudo make install
 cd ~
 rm chruby-0.3.9.tar.gz
 printf "\nsource /usr/local/share/chruby/chruby.sh" >> ~/.bashrc
-#printf "\nsource /usr/local/share/chruby/auto.sh\n" >> ~/.bashrc
+printf "\nsource /usr/local/share/chruby/auto.sh\n" >> ~/.bashrc
 echo "ruby-2.5.3" >> ~/.ruby-version
 echo -e "\e[1;32m chruby setup done... \e[0m"
 echo -e "\e[1;32m CLOSE & REOPEN TERMINAL \e[0m"
