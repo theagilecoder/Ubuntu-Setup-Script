@@ -1,8 +1,9 @@
 #! /bin/bash
 
+# https://ryanbigg.com/2014/10/ubuntu-ruby-ruby-install-chruby-and-you
+
 # Install build essential if not installed
-sudo apt install build-essential
-echo -e "\e[1;32m build-essential packages installed... \e[0m"
+# sudo apt install build-essential
 
 wget -O ruby-install-0.7.0.tar.gz https://github.com/postmodern/ruby-install/archive/v0.7.0.tar.gz
 tar -xzvf ruby-install-0.7.0.tar.gz
