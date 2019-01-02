@@ -2,7 +2,7 @@
 
 Shell script for Ubuntu 18.04.1 LTS quick setup.
 
-Run Example:
+Run Example from /home:
 
     chmod +x ubuntu.sh
     ./ubuntu.sh
