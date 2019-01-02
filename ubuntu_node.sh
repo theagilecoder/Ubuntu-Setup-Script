@@ -1,6 +1,7 @@
 #! /bin/bash
 
 # Install NVM and Node
+cd ~
 echo -e "\e[1;32m Installing NVM... \e[0m"
 sudo apt install build-essential
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
