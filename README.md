@@ -2,9 +2,9 @@
 
 Shell script for Ubuntu 18.04.1 LTS quick setup.
 
-Run Example from /home:
+Run from /home:
 
-    chmod +x ubuntu.sh
-    ./ubuntu.sh
+    chmod +x ubuntu_git.sh
+    ./ubuntu_git.sh
 
 Reopen shell after every script.
