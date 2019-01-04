@@ -30,7 +30,7 @@ gem update --system
 gem -v
 echo -e "\e[1;32m Updated RubyGems... \e[0m"
 
-# Install Bundler
+# Install Bundler - Latest v2.0 might not play nice with Heroku
 gem install bundler -v 1.17.2
 
 # Install Rails
@@ -42,4 +42,4 @@ sudo apt install libpq-dev
 # Install Heroku CLI
 sudo snap install --classic heroku
 
-echo -e "\e[1;32m CLOSE & REOPEN TERMINAL \e[0m"
+echo -e "\e[1;32m RESTART SYSTEM \e[0m"
